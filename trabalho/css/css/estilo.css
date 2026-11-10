@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* corpo de todos os  html */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5eee6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* cabeçalhos */
+
+header {
+  background-color: #6b1d1d;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* pagina inicial*/
+
+nav {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b1d1d;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #a67c52;
+}
+
+/* banner da paginaa inicial */
+
+.banner {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.banner h2 {
+  color: #6b1d1d;
+  font-size: 35px;
+}
+
+/* blocos*/
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+/* seçoes */
+
+section {
+  background-color: white;
+  margin: 30px 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: #6b1d1d;
+  margin-bottom: 15px;
+}
+
+/* cards das ultimas novidades */
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px;
+  background-color: #fffaf5;
+  border-left: 5px solid #6b1d1d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #6b1d1d;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* resenha */
+
+.titulo {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.titulo h1 {
+  color: #6b1d1d;
+}
+
+.informacoes,
+.sinopse,
+.resenha,
+.pontos-positivos,
+.pontos-negativos,
+.nota-final {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.informacoes img {
+  width: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sinopse h2,
+.resenha h2,
+.pontos-positivos h2,
+.pontos-negativos h2,
+.nota-final h2 {
+  color: #6b1d1d;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* sobremim */
+
+.sobremim {
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sobremim h1 {
+  color: #6b1d1d;
+  margin-bottom: 20px;
+}
+
+.sobremim img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #d8c3a5;
+}
+
+/* formulario para contato*/
+
+.entreemcontato {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  color: #6b1d1d;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #6b1d1d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8b2c2c;
+}
+
+/* footer nas paginas */
+
+footer {
+  background-color: #6b1d1d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* meus contatos */
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  .banner h2 {
+    font-size: 25px;
+  }
+}
+.meuscontatos {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+a {
+  color: #6b1d1d;
+}
